@@ -1,16 +1,15 @@
 package org.example;
-
-public class Shape {
+ public abstract class Shape {
         private String color;
         private boolean isFilled;
 
-    public Shape() {
+    protected Shape() {
         color = "unknown";
         isFilled = false;
 
     }
 
-    public Shape(String color, boolean isFilled) {
+    protected Shape(String color, boolean isFilled) {
         this.color = color;
         this.isFilled = isFilled;
     }
@@ -35,4 +34,7 @@ public class Shape {
     public String toString() {
         return "Shape with color of " + color + " and filled/NotFilled" + isFilled;
     }
+    public abstract double getArea();
+    public abstract double getPerimeter();
+
 }
