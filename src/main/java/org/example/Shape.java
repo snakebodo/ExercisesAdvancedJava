@@ -33,6 +33,6 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "Shape with color of" + color + "and filled/NotFilled" + isFilled;
+        return "Shape with color of " + color + " and filled/NotFilled" + isFilled;
     }
 }
