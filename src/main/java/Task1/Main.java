@@ -1,4 +1,7 @@
-package Task3;
+/*package Task1;
+
+import Task1.Point2D;
+import Task1.Point3D;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,4 +11,4 @@ public class Main {
          point3D.setXYZ(point2D.getX(), point3D.getY(), point3D.getZ());
         System.out.println(point3D);
     }
-}
+}*/

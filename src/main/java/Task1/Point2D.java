@@ -1,4 +1,4 @@
-package Task3;
+package Task1;
 
 public class Point2D {
     private float x;
